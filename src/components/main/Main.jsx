@@ -14,16 +14,16 @@ const Main = () => {
     </div>
       <div className="main-container">
       {!showresult?<>    <div className="greet">
-          <p><span>Hello, Sir</span></p>
+          <p><span>Hello, Dev</span></p>
           <p>How can I Help You Today?</p>
 
         </div>
         <div className="cards">
-          <div className="card">
+          {/* <div className="card">
             <p>Suggest Some beautiful Road trip</p>
             <img src={assets.compass_icon} alt="" />
-          </div>
-          <div className="card">
+          </div> */}
+          {/* <div className="card">
             <p>Briefly summarize this concept:Urban planing</p>
             <img src={assets.bulb_icon} alt="" />
           </div> <div className="card">
@@ -32,7 +32,7 @@ const Main = () => {
           </div> <div className="card">
             <p>Improve the readability of the following code</p>
             <img src={assets.code_icon} alt="" />
-          </div>
+          </div> */}
         </div></>:<div className='result'>
           <div className="result-title">
             <img src={assets.user_icon} alt="" />

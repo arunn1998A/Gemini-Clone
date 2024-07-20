@@ -18,7 +18,7 @@ const Sidebar = () => {
       </div>
       <div onClick={()=>newChat()} className="new-chat">
         <img src={assets.plus_icon} alt="" />
-        {extended ? <p>New Chat</p> : null}
+        {extended ? <p></p> : null}
       </div>
       {extended && Array.isArray(PrevPrompt) && PrevPrompt.length > 0 ? (
         <div className="recent">
